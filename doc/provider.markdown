@@ -103,7 +103,7 @@ Indicate to node-apn that it should close all open connections when the queue of
 
 **Note:** If notifications are pushed after the connection has completely shutdown a new connection will be established. However, the shutdown flag will remain and after the notifications are sent the connections will be optimistically shutdown again. Do not rely on this behaviour, it's more of a quirk.
 
-[provider-api]: https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/APNsProviderAPI.html
+[provider-api]: https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/APNsProviderAPI.html#//apple_ref/doc/uid/TP40008194-CH101-SW21
 [provider-auth-tokens]: https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/APNsProviderAPI.html#//apple_ref/doc/uid/TP40008194-CH101-SW21
 [http2-response]: https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/APNsProviderAPI.html#//apple_ref/doc/uid/TP40008194-CH101-SW18
 [jwt]: https://jwt.io
